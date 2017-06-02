@@ -1,0 +1,31 @@
+-- Clean up tweets
+CREATE VIEW IF NOT EXISTS tweets_simple AS
+SELECT
+  id,
+  cast ( from_unixtime( unix_timestamp(concat( '2016 ', substring(created_at,5,15)), 'yyyy MMM dd hh:mm:ss')) as timestamp) ts,
+  text,
+  user.time_zone 
+FROM Mytweets_raw;
+
+CREATE VIEW IF NOT EXISTS tweets_clean AS
+SELECT
+  id,
+  ts,
+  text,
+  m.country 
+ FROM tweets_simple t LEFT OUTER JOIN time_zone_map m ON t.time_zone = m.time_zone;
+
+
+-- Compute sentiment
+create view IF NOT EXISTS l1 as select id, words from Mytweets_raw lateral view explode(sentences(lower(text))) dummy as words;
+create view IF NOT EXISTS l2 as select id, word from l1 lateral view explode( words ) dummy as word ;
+
+create view IF NOT EXISTS l3 as select 
+    id, 
+    l2.word, 
+    case d.polarity 
+      when  'negative' then -1
+      when 'positive' then 1 
+      else 0 end as polarity 
+ from l2 left outer join dictionary d on l2.word = d.word;
+ 

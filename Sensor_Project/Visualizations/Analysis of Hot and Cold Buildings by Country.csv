@@ -1,0 +1,39 @@
+﻿Hvacbuilding Countcold.Country,Measure Names,Measure Values
+USA,Hot,104
+Turkey,Hot,126
+South Africa,Hot,133
+Singapore,Hot,121
+Saudi Arabia,Hot,111
+Mexico,Hot,106
+Israel,Hot,126
+Indonesia,Hot,115
+Hong Kong,Hot,125
+Germany,Hot,100
+France,Hot,151
+Finland,Hot,242
+Egypt,Hot,112
+China,Hot,124
+Canada,Hot,134
+Brazil,Hot,121
+Belgium,Hot,97
+Australia,Hot,128
+Argentina,Hot,116
+USA,Cold,109
+Turkey,Cold,117
+South Africa,Cold,104
+Singapore,Cold,109
+Saudi Arabia,Cold,122
+Mexico,Cold,122
+Israel,Cold,106
+Indonesia,Cold,128
+Hong Kong,Cold,123
+Germany,Cold,96
+France,Cold,100
+Finland,Cold,231
+Egypt,Cold,124
+China,Cold,117
+Canada,Cold,98
+Brazil,Cold,105
+Belgium,Cold,102
+Australia,Cold,97
+Argentina,Cold,114

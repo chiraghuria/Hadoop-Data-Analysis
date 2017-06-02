@@ -1,0 +1,308 @@
+﻿Product,State,Quantity
+Stapler,AP,1
+Pens,AP,3
+Forks,AP,3
+Bread,AP,1
+Black grapes,AP,1
+Yogurt,AS,3
+Spark Plugs,AS,3
+Silver knives,AS,3
+Shaving Gel,AS,3
+Hair net,AS,1
+Green grapes,AS,1
+Forks,AS,1
+Electric guitar,AS,3
+Chicken whole,AS,1
+Chicken,AS,1
+CD ROMS,AS,1
+Almond,AS,3
+Fishing net,BH,1
+Sugar,CH,3
+Playing cards,CH,3
+Drumsticks,CH,1
+Broom,CH,1
+Tylenol,DL,2
+T short,DL,1
+Shaving Gel,DL,1
+Potato chips,DL,6
+Poptarts,DL,2
+Multivitamins,DL,2
+Milk,DL,9
+Leather shoes,DL,3
+Cookies,DL,3
+Coffee ground,DL,8
+Chocolates HAK,DL,4
+Carrots,DL,1
+Bread,DL,5
+Beets,DL,1
+Wheat Bread,GJ,9
+Tylenol,GJ,6
+T short,GJ,1
+Sugar,GJ,2
+Stapler pins,GJ,3
+Stapler,GJ,2
+Spoons,GJ,1
+Spice and Herbs,GJ,3
+Spark Plugs,GJ,2
+Silver knives,GJ,5
+Running Shoes,GJ,6
+Potato chips,GJ,3
+Poptarts,GJ,4
+Playing cards,GJ,4
+Pens,GJ,2
+Pencils,GJ,1
+Papaya,GJ,1
+Pants,GJ,3
+Oranges,GJ,6
+Multivitamins,GJ,1
+Mountain Dew,GJ,2
+Milk,GJ,1
+Leather shoes,GJ,6
+Hair net,GJ,11
+Forks,GJ,3
+Flute,GJ,2
+Fishing net,GJ,1
+Electrical Plug,GJ,9
+Electric guitar,GJ,3
+Drumsticks,GJ,6
+Cookies,GJ,1
+Coke,GJ,3
+Chocolates HAK,GJ,4
+Chicken whole,GJ,3
+Chicken,GJ,1
+CD ROMS,GJ,4
+Cauliflower,GJ,5
+Carrots,GJ,4
+Butter,GJ,1
+Broom,GJ,6
+Bread,GJ,3
+Black grapes,GJ,3
+Ankle bands,GJ,7
+Almond,GJ,5
+Yogurt,KA,2
+Wheat Bread,KA,1
+Tylenol,KA,1
+T short,KA,4
+Stapler pins,KA,1
+Spoons,KA,3
+Spice and Herbs,KA,5
+Silver knives,KA,4
+Shaving Gel,KA,4
+Running Shoes,KA,1
+Potato chips,KA,1
+Poptarts,KA,4
+Pencils,KA,6
+Papaya,KA,4
+Oranges,KA,6
+Multivitamins,KA,10
+Mountain Dew,KA,3
+Milk,KA,3
+Leather shoes,KA,3
+Flute,KA,13
+Fishing net,KA,10
+Electrical Plug,KA,1
+Electric guitar,KA,1
+Drumsticks,KA,3
+Cookies,KA,16
+Coke,KA,3
+Coffee ground,KA,3
+Chocolates HAK,KA,4
+Chicken,KA,1
+Butter,KA,1
+Broom,KA,1
+Bread,KA,4
+Beets,KA,2
+Ankle bands,KA,3
+T short,MP,2
+Stapler,MP,3
+Silver knives,MP,1
+Poptarts,MP,3
+Pens,MP,3
+Leather shoes,MP,1
+Green grapes,MP,1
+Electric guitar,MP,3
+Coke,MP,1
+Chicken,MP,2
+CD ROMS,MP,1
+Butter,MP,1
+Black grapes,MP,1
+Yogurt,,5
+Wheat Bread,,4
+Tylenol,,4
+T short,,3
+Sugar,,5
+Stapler pins,,6
+Stapler,,3
+Spoons,,4
+Spice and Herbs,,4
+Spark Plugs,,3
+Shaving Gel,,4
+Running Shoes,,4
+Potato chips,,3
+Poptarts,,2
+Playing cards,,5
+Piston Rings,,7
+Pens,,2
+Pencils,,5
+Papaya,,4
+Pants,,3
+Oranges,,1
+Multivitamins,,3
+Mountain Dew,,3
+Milk,,1
+Leather shoes,,4
+Hair net,,6
+Green grapes,,13
+Forks,,4
+Flute,,4
+Fishing net,,3
+Electrical Plug,,1
+Drumsticks,,4
+Cookies,,1
+Coke,,1
+Coffee ground,,3
+Chocolates HAK,,5
+Chicken whole,,3
+CD ROMS,,5
+Cauliflower,,6
+Carrots,,4
+Butter,,2
+Broom,,5
+Bread,,2
+Black grapes,,2
+Beets,,4
+Ankle bands,,5
+Almond,,2
+,,
+Chicken whole,OR,1
+Yogurt,Ontario,7
+Wheat Bread,Ontario,7
+Tylenol,Ontario,7
+T short,Ontario,7
+Sugar,Ontario,8
+Stapler pins,Ontario,8
+Stapler,Ontario,8
+Spoons,Ontario,8
+Spice and Herbs,Ontario,8
+Spark Plugs,Ontario,8
+Silver knives,Ontario,7
+Shaving Gel,Ontario,7
+Running Shoes,Ontario,7
+Potato chips,Ontario,7
+Poptarts,Ontario,7
+Playing cards,Ontario,8
+Piston Rings,Ontario,8
+Pens,Ontario,8
+Pencils,Ontario,8
+Papaya,Ontario,8
+Pants,Ontario,8
+Oranges,Ontario,5
+Multivitamins,Ontario,5
+Mountain Dew,Ontario,5
+Milk,Ontario,5
+Leather shoes,Ontario,5
+Hair net,Ontario,8
+Green grapes,Ontario,8
+Forks,Ontario,8
+Flute,Ontario,8
+Fishing net,Ontario,8
+Electrical Plug,Ontario,8
+Electric guitar,Ontario,7
+Drumsticks,Ontario,5
+Cookies,Ontario,5
+Coke,Ontario,5
+Coffee ground,Ontario,5
+Chocolates HAK,Ontario,5
+Chicken whole,Ontario,8
+Chicken,Ontario,8
+CD ROMS,Ontario,8
+Cauliflower,Ontario,8
+Carrots,Ontario,8
+Butter,Ontario,8
+Broom,Ontario,8
+Bread,Ontario,8
+Black grapes,Ontario,8
+Beets,Ontario,8
+Ankle bands,Ontario,8
+Almond,Ontario,8
+Yogurt,PJ,2
+Sugar,PJ,5
+Stapler pins,PJ,1
+Stapler,PJ,5
+Shaving Gel,PJ,3
+Running Shoes,PJ,1
+Potato chips,PJ,1
+Playing cards,PJ,2
+Piston Rings,PJ,2
+Pens,PJ,3
+Oranges,PJ,1
+Multivitamins,PJ,1
+Mountain Dew,PJ,3
+Milk,PJ,2
+Hair net,PJ,3
+Green grapes,PJ,3
+Forks,PJ,10
+Drumsticks,PJ,1
+Coke,PJ,4
+Coffee ground,PJ,3
+Chicken whole,PJ,4
+Chicken,PJ,4
+CD ROMS,PJ,1
+Broom,PJ,3
+Black grapes,PJ,8
+Beets,PJ,4
+Cauliflower,RJ,1
+Wheat Bread,TN,1
+Tylenol,TN,3
+T short,TN,1
+Spice and Herbs,TN,1
+Spark Plugs,TN,1
+Potato chips,TN,1
+Pencils,TN,1
+Papaya,TN,3
+Pants,TN,4
+Flute,TN,3
+Fishing net,TN,4
+Electrical Plug,TN,6
+Cauliflower,TN,3
+Carrots,TN,2
+Butter,TN,3
+Ankle bands,TN,1
+Almond,TN,1
+Yogurt,UP,4
+Wheat Bread,UP,1
+T short,UP,4
+Stapler pins,UP,3
+Spoons,UP,6
+Spice and Herbs,UP,1
+Spark Plugs,UP,5
+Silver knives,UP,2
+Running Shoes,UP,3
+Piston Rings,UP,5
+Pens,UP,1
+Pencils,UP,1
+Papaya,UP,2
+Pants,UP,4
+Oranges,UP,3
+Mountain Dew,UP,6
+Milk,UP,1
+Hair net,UP,1
+Green grapes,UP,4
+Forks,UP,1
+Fishing net,UP,3
+Electrical Plug,UP,4
+Electric guitar,UP,6
+Drumsticks,UP,8
+Cookies,UP,1
+Coke,UP,9
+Coffee ground,UP,3
+Chocolates HAK,UP,1
+Chicken whole,UP,3
+Chicken,UP,6
+CD ROMS,UP,3
+Carrots,UP,4
+Butter,UP,7
+Bread,UP,1
+Black grapes,UP,1
+Beets,UP,5
+Almond,UP,5

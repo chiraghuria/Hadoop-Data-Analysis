@@ -1,0 +1,72 @@
+ADD JAR /usr/lib/hive-hcatalog/share/hcatalog/hive-hcatalog-core.jar;
+
+-- creating ext table for tweets
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS Mytweets_raw (
+   id BIGINT,
+   created_at STRING,
+   source STRING,
+   favorited BOOLEAN,
+   retweet_count INT,
+   retweeted_status STRUCT<
+      text:STRING,
+      user:STRUCT<screen_name:STRING,name:STRING>>,
+   entities STRUCT<
+      urls:ARRAY<STRUCT<expanded_url:STRING>>,
+      user_mentions:ARRAY<STRUCT<screen_name:STRING,name:STRING>>,
+      hashtags:ARRAY<STRUCT<text:STRING>>>,
+   text STRING,
+   user STRUCT<
+      screen_name:STRING,
+      name:STRING,
+      friends_count:INT,
+      followers_count:INT,
+      statuses_count:INT,
+      verified:BOOLEAN,
+      utc_offset:INT,
+      time_zone:STRING>,
+   in_reply_to_screen_name STRING
+) 
+ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'
+LOCATION '/user/cloudera/Projects/Twitter_Sentiment_Analysis_Project/tweets_raw';
+
+
+
+-- create sentiment dictionary
+
+CREATE EXTERNAL TABLE IF NOT EXISTS dictionary (
+    type string,
+    length int,
+    word string,
+    pos string,
+    stemmed string,
+    polarity string
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t' 
+STORED AS TEXTFILE
+LOCATION '
+
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS dictionary (
+    type string,
+    length int,
+    word string,
+    pos string,
+    stemmed string,
+    polarity string
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t' 
+STORED AS TEXTFILE
+LOCATION '/user/cloudera/Projects/Twitter_Sentiment_Analysis_Project/Dictionary';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS time_zone_map (
+    time_zone string,
+    country string
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t' 
+STORED AS TEXTFILE
+LOCATION '/user/cloudera/Projects/Twitter_Sentiment_Analysis_Project/Time_Zone_Map';
+

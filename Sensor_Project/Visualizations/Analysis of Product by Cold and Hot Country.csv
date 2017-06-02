@@ -1,0 +1,21 @@
+﻿Hvacbuilding Countbyprod.Country,Hvacbuilding Countbyprod.Hvac Product,Hvacbuilding Countcold.Count Cold,Hvacbuilding Counthot.Count Hot
+USA,AC1000,109,104
+Turkey,AC1000,117,126
+Singapore,AC1000,109,121
+Belgium,AC1000,102,97
+Israel,ACMAX22,106,126
+Hong Kong,ACMAX22,123,125
+China,ACMAX22,117,124
+Argentina,ACMAX22,114,116
+South Africa,FN39TG,104,133
+France,FN39TG,100,151
+Finland,FN39TG,231,242
+Egypt,FN39TG,124,112
+Mexico,GG1919,122,106
+Germany,GG1919,96,100
+Finland,GG1919,231,242
+Canada,GG1919,98,134
+Saudi Arabia,JDNS77,122,111
+Indonesia,JDNS77,128,115
+Brazil,JDNS77,105,121
+Australia,JDNS77,97,128

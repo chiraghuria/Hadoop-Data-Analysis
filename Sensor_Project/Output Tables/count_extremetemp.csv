@@ -1,0 +1,39 @@
+hvacbuilding_countextreme.country,hvacbuilding_countextreme.temp_range,hvacbuilding_countextreme.count_extreme
+Argentina,COLD,114
+Argentina,HOT,116
+Australia,COLD,97
+Australia,HOT,128
+Belgium,COLD,102
+Belgium,HOT,97
+Brazil,COLD,105
+Brazil,HOT,121
+Canada,COLD,98
+Canada,HOT,134
+China,COLD,117
+China,HOT,124
+Egypt,COLD,124
+Egypt,HOT,112
+Finland,COLD,231
+Finland,HOT,242
+France,COLD,100
+France,HOT,151
+Germany,COLD,96
+Germany,HOT,100
+Hong Kong,COLD,123
+Hong Kong,HOT,125
+Indonesia,COLD,128
+Indonesia,HOT,115
+Israel,COLD,106
+Israel,HOT,126
+Mexico,COLD,122
+Mexico,HOT,106
+Saudi Arabia,COLD,122
+Saudi Arabia,HOT,111
+Singapore,COLD,109
+Singapore,HOT,121
+South Africa,COLD,104
+South Africa,HOT,133
+Turkey,COLD,117
+Turkey,HOT,126
+USA,COLD,109
+USA,HOT,104

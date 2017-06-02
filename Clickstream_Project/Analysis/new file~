@@ -1,0 +1,6 @@
+create external table if not exists omniture_logs (user_id string, date_time timestamp, ip_address string, city string, country string, url string) 
+row format delimited
+fields terminated by '\t'
+location '/user/cloudera/Projects/Project_Clickstream/omniture_logs.out/';
+
+create external table if not exists registered_user (

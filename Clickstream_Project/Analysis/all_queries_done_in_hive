@@ -1,0 +1,58 @@
+select * from omniture_logs limit 5;
+create external table if not exists omniture_logs (user_id string, date_time timestamp, ip_address string, city string, country string, url string) 
+row format delimited
+fields terminated by '\t'
+location '/user/cloudera/Projects/Project_Clickstream/omniture_logs.out/';
+
+
+load data inpath '/user/cloudera/Projects/Project_Clickstream/omniture_logs.out/' into table omniture_logs;
+
+drop table registered_user;
+create external table if not exists registered_user (user_id string, DOB string, gender string)
+row format delimited
+fields terminated by '\t'
+location '/user/cloudera/Projects/Project_Clickstream/regusers.out';
+
+select * from registered_user limit 5;
+
+create external table if not exists url_product (url string, product string)
+row format delimited
+fields terminated by '\t'
+location '/user/cloudera/Projects/Project_Clickstream/url_product.out/'
+
+select * from url_product limit 5;
+
+
+create view temp1 as select ol.user_id, ru.dob, ru.gender, ol.city, ol.country, ol.url, ol.ip_address, ol.date_time from registered_user ru
+join omniture_logs ol
+on ru.user_id==ol.user_id;
+
+select * from temp1 limit 5;
+
+create view temp2 as select 
+t1.user_id, t1.dob, t1.gender, t1.ip_address, t1.date_time, t1.url, up.product, t1.country, t1.city from url_product up
+join temp1 t1
+on t1.url==up.url;
+
+select * from temp2 limit 5;
+select * from temp2;
+
+--creating and storing the clean data after partitioning into a final internal table
+
+--dynamic partitioning
+
+
+create table clickstream_analysis (user_id string , dob string, gender string, ip_address string, date_time timestamp, url string, product string)
+partitioned by (city string, country string);
+
+set hive.exec.dynamic.partition.mode=nonstrict;
+set hive.exec.dynamic.partition=true;
+set hive.enforce.bucketing=true;
+
+from temp2 t2 
+insert overwrite table clickstream_analysis
+partition (city,country)
+select t2.user_id, t2.dob, t2.gender, t2.ip_address, t2.date_time, t2.url, t2.product, t2.country, t2.city
+distribute by (city, country);
+
+

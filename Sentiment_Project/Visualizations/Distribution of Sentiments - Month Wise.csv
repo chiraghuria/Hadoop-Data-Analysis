@@ -1,0 +1,32 @@
+﻿Country,Month of Timestamp,Tweetsbi.Sentiment,Distinct count of Tweet Text
+UNITED STATES,September 2016,positive,3
+UNITED KINGDOM,September 2016,positive,1
+NULL,September 2016,positive,1
+BELGIUM,September 2016,positive,1
+UNITED STATES,June 2016,positive,9
+UNITED KINGDOM,June 2016,positive,1
+NULL,June 2016,positive,8
+NETHERLANDS,June 2016,positive,2
+INDIA,June 2016,positive,1
+GERMANY,June 2016,positive,1
+NULL,September 2016,NULL,2
+NULL,June 2016,NULL,2
+NULL,,NULL,2
+UNITED STATES,September 2016,neutral,4
+UNITED KINGDOM,September 2016,neutral,2
+NULL,September 2016,neutral,12
+INDIA,September 2016,neutral,2
+UNITED STATES,June 2016,neutral,16
+SPAIN,June 2016,neutral,1
+NULL,June 2016,neutral,21
+NETHERLANDS,June 2016,neutral,1
+IRAQ,June 2016,neutral,1
+INDIA,June 2016,neutral,1
+FRANCE,June 2016,neutral,2
+ECUADOR,June 2016,neutral,1
+NULL,September 2016,negative,4
+BRAZIL,September 2016,negative,1
+UNITED STATES,June 2016,negative,4
+SPAIN,June 2016,negative,1
+NULL,June 2016,negative,3
+IRAQ,June 2016,negative,1

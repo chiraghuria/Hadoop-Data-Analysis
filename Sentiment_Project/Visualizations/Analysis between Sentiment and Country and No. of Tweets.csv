@@ -1,0 +1,22 @@
+﻿Country,Sentiment,Tweet Count
+UNITED STATES,negative,11
+SPAIN,negative,1
+NULL,negative,9
+IRAQ,negative,1
+BRAZIL,negative,1
+UNITED STATES,neutral,22
+UNITED KINGDOM,neutral,2
+SPAIN,neutral,1
+NULL,neutral,34
+NETHERLANDS,neutral,1
+IRAQ,neutral,1
+INDIA,neutral,3
+FRANCE,neutral,2
+ECUADOR,neutral,1
+UNITED STATES,positive,12
+UNITED KINGDOM,positive,2
+NULL,positive,10
+NETHERLANDS,positive,2
+INDIA,positive,1
+GERMANY,positive,1
+BELGIUM,positive,1

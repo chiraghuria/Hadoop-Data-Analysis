@@ -1,0 +1,23 @@
+ -- put everything back together and re-name sentiments...
+CREATE TABLE IF NOT EXISTS tweetsbi 
+AS
+SELECT 
+  t.*,
+  s.sentiment 
+FROM tweets_clean t LEFT OUTER JOIN tweets_sentiment s on t.id = s.id;
+
+-- data with tweet counts.....
+CREATE TABLE IF NOT EXISTS tweetsbiaggr 
+AS
+SELECT 
+  country,sentiment, count(sentiment) as tweet_count 
+FROM tweetsbi
+group by country,sentiment;
+
+-- store data for analysis......
+
+CREATE VIEW IF NOT EXISTS A as select country,tweet_count as positive_response from tweetsbiaggr where sentiment='positive';
+CREATE VIEW IF NOT EXISTS B as select country,tweet_count as negative_response from tweetsbiaggr where sentiment='negative';
+CREATE VIEW IF NOT EXISTS C as select country,tweet_count as neutral_response from tweetsbiaggr where sentiment='neutral';
+CREATE TABLE IF NOT EXISTS tweetcompare as select A.*,B.negative_response as negative_response,C.neutral_response as neutral_response from A join B on A.country= B.country join C on B.country=C.country;
+ 

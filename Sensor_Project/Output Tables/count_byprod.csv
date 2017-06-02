@@ -1,0 +1,21 @@
+hvacbuilding_countbyprod.country,hvacbuilding_countbyprod.hvac_product,hvacbuilding_countbyprod.count_extremetemp
+Germany,GG1919,196
+Belgium,AC1000,199
+USA,AC1000,213
+Australia,JDNS77,225
+Brazil,JDNS77,226
+Mexico,GG1919,228
+Singapore,AC1000,230
+Finland,GG1919,230
+Argentina,ACMAX22,230
+Israel,ACMAX22,232
+Canada,GG1919,232
+Saudi Arabia,JDNS77,233
+Egypt,FN39TG,236
+South Africa,FN39TG,237
+China,ACMAX22,241
+Turkey,AC1000,243
+Indonesia,JDNS77,243
+Finland,FN39TG,243
+Hong Kong,ACMAX22,248
+France,FN39TG,251
